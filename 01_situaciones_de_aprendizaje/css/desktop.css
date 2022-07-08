@@ -1,0 +1,122 @@
+/********************************************************************************/
+/* DESKTOP */
+/********************************************************************************/
+@media only screen and (min-width: 1300px) {
+
+html{
+	font-size: 1.2rem;
+	/*scroll-padding-top: 8rem;*/
+}
+
+body{
+	margin: unset;
+	/*
+	display: flex;
+	justify-content: space-between;
+	*/
+}
+
+#logo {
+	font-size: 1.5rem;
+	padding: 0 0 1rem 0;
+	font-family: "atkinson";
+	font-weight: bold;
+}
+
+#retrato{
+	float: right;
+	margin: 0 0 2rem 2rem;
+	width: 15rem;
+}
+
+/* NAV ***************************************************/
+#menu_icon{
+	display: none;
+}
+
+
+nav#menu{
+	margin: 0;
+	border: unset;
+	border-radius: unset;
+	border-right: 1px solid var(--color_principal);
+	top: 5rem;
+	padding-top: 0;
+	left: 0;
+	width: 320px;
+	position: fixed;
+	overflow-x: hidden;
+	overflow-y: visible;
+	scrollbar-color: var(--color_principal) black;
+	scrollbar-width: thin;
+	height: calc(100% - 10rem - 18px - 5rem);
+	display: block;
+	background-color: unset;
+}
+
+
+
+
+
+/* MAIN ************************************************/
+main {	/* M */
+	max-width: 900px;
+	margin: 5rem auto 0 auto;
+	padding-left: 400px;
+}
+
+main > header > h1{	/* El título portada de página */
+	font-size: 3rem;
+	line-height: 3rem;
+	/*
+	text-align: right;
+	border-left: 1px solid var(--color_principal);
+	border-bottom: 1px solid var(--color_principal);
+	border-radius: 1rem;
+	padding-right: 2rem;
+	*/
+}
+
+main > header img{
+	float: right;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+	width: 40%;
+}
+
+main h1{
+	line-height: 3rem;
+}
+
+
+main img{
+	max-width: 900px;
+}
+
+code {
+	font-size: 1rem;
+}
+
+/* SECTION *************************************************/
+
+.valign_2rem{
+	height: 2rem;
+}
+
+section ol.problemas li{
+}
+
+
+footer{
+	text-align: right;
+	padding: unset;
+	height: 10rem;
+}
+
+footer ul{
+	padding-left: 400px;
+	padding: 2rem 2rem 2rem 400px;
+}
+
+
+}	 /* END MEDIA */
